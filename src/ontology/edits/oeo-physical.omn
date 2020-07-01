@@ -3208,6 +3208,43 @@ pull request: https://github.com/OpenEnergyPlatform/ontology/pull/391",
         OEO_00000350
     
     
+Class: OEO_00230010
+
+    Annotations: 
+        definition "Primary energy is energy that is contained in fuels within the biosphere and natural reserves, or captured from natural energy flows, in a suitable form for use.
+Inert matter removed from the extracted fuels and quantities re-injected, flared or vented are not included."@en,
+        <http://purl.obolibrary.org/obo/IAO_0000119> "adapted from United Nations. International Recommendations for Energy Statistics. 154 https://unstats.un.org/unsd/energystats/methodology/ires/ (2018), paragraph 5.10"@en,
+        <http://purl.obolibrary.org/obo/IAO_0000233> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/390"@en,
+        rdfs:label "primary energy"@en
+    
+    SubClassOf: 
+        OEO_00000150
+    
+    
+Class: OEO_00230011
+
+    Annotations: 
+        definition "Secondary energy is energy that has been converted from primary energy or a different form of secondary energy."@en,
+        <http://purl.obolibrary.org/obo/IAO_0000119> "adapted from United Nations. International Recommendations for Energy Statistics. 154 https://unstats.un.org/unsd/energystats/methodology/ires/ (2018), paragraph 5.10"@en,
+        <http://purl.obolibrary.org/obo/IAO_0000233> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/390"@en,
+        rdfs:label "secondary energy"@en
+    
+    SubClassOf: 
+        OEO_00000150
+    
+    
+Class: OEO_00230012
+
+    Annotations: 
+        definition "Final energy is energy that is delivered to energy consumers for their use."@en,
+        <http://purl.obolibrary.org/obo/IAO_0000119> "adapted from United Nations. International Recommendations for Energy Statistics. 154 https://unstats.un.org/unsd/energystats/methodology/ires/ (2018), paragraph 5.22"@en,
+        <http://purl.obolibrary.org/obo/IAO_0000233> "issue: https://github.com/OpenEnergyPlatform/ontology/issues/390"@en,
+        rdfs:label "final energy"@en
+    
+    SubClassOf: 
+        OEO_00000150
+    
+    
 Individual: OEO_00000182
 
     Annotations: 
