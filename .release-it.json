@@ -2,7 +2,12 @@
   "plugins": {
     "@release-it/bumper": {
       "in": "VERSION",
-      "out": ["VERSION", "src/**/*.omn", "src/**/*.xml", "src/**/*.owl"]
+      "out": [
+        "VERSION",
+        "src/**/*.omn",
+        "src/**/*.xml",
+        "src/**/*.owl"
+      ]
     }
   },
   "github": {
