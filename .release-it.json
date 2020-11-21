@@ -4,7 +4,7 @@
       "in": "VERSION",
       "out": {
         "files": ["VERSION", "src/**/*.omn", "src/**/*.xml", "src/**/*.owl"],
-        "pattern": "v\\d+\\.\\d+\\.\\d+",
+        "pattern": "v{{latestVersion}}",
         "replace": "{{version}}"
       }
     }
