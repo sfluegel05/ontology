@@ -1,13 +1,12 @@
 {
   "plugins": {
-    "@release-it/bumper": {
+    "@j-ulrich/release-it-regex-bumper": {
       "in": "VERSION",
-      "out": [
-        "VERSION",
-        "src/**/*.omn",
-        "src/**/*.xml",
-        "src/**/*.owl"
-      ]
+      "out": {
+        "files": ["VERSION", "src/**/*.omn", "src/**/*.xml", "src/**/*.owl"],
+        "pattern": "v\\d+\\.\\d+\\.\\d+",
+        "replace": "v{{version}}"
+      }
     }
   },
   "github": {
