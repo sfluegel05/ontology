@@ -2,14 +2,22 @@
   "plugins": {
     "@j-ulrich/release-it-regex-bumper": {
       "in": "VERSION",
-      "out": {
+      "out": 
+      {
         "files": ["VERSION", "src/**/*.omn", "src/**/*.xml", "src/**/*.owl"],
-        "pattern": "v\\d+\\.\\d+\\.\\d+",
+        "search": {
+          "pattern": "v\\d+\\.\\d+\\.\\d+",
+          "flags": "g"
+        },
         "replace": "v{{version}}"
       }
     }
   },
+  "git" : {
+    "changelog": null
+  },
   "github": {
-    "release": true
+    "release": true,
+    "draft": true
   }
 }
