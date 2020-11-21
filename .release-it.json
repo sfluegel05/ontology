@@ -4,8 +4,8 @@
       "in": "VERSION",
       "out": {
         "files": ["VERSION", "src/**/*.omn", "src/**/*.xml", "src/**/*.owl"],
-        "pattern": "v\\d+\\.\\d+\\.\\d+",
-        "replace": "v{{version}}"
+        "search": "v\\d+\\.\\d+\\.\\d+",
+        "replace": "{{version}}"
       }
     }
   },
