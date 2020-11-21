@@ -7,7 +7,7 @@
         "files": ["VERSION", "src/**/*.omn", "src/**/*.xml", "src/**/*.owl"],
         "search": {
           "pattern": "v\\d+\\.\\d+\\.\\d+",
-          "flag": "g"
+          "flags": "g"
         },
         "replace": "v{{version}}"
       }
