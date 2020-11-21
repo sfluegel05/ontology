@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/imports/iao-module.owl" uri="imports/iao-module.owl"/>
+    <uri id="Imports Wizard Entry" name="http://openenergy-platform.org/ontology/oeo/releases/v1.3.1/imports/iao-module.owl" uri="imports/iao-module.owl"/>
     <uri id="Imports Wizard Entry" name="http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/imports/uo-module.owl" uri="imports/uo-module.owl"/>
     <uri id="Imports Wizard Entry" name="http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/imports/iao-minimal-module.owl" uri="imports/iao-minimal-module.owl"/>
     <uri id="Imports Wizard Entry" name="http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/imports/iao-annotation-module.owl" uri="imports/iao-annotation-module.owl"/>
