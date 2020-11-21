@@ -5,7 +5,10 @@
       "out": 
       {
         "files": ["VERSION", "src/**/*.omn", "src/**/*.xml", "src/**/*.owl"],
-        "search": "v\\d+\\.\\d+\\.\\d+\\g",
+        "search": {
+          "pattern": "v\\d+\\.\\d+\\.\\d+",
+          "flag": "g"
+        },
         "replace": "v{{version}}"
       }
     }
