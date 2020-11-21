@@ -13,7 +13,11 @@
       }
     }
   },
+  "git" : {
+    "changelog": null
+  },
   "github": {
-    "release": true
+    "release": true,
+    "draft": true
   }
 }
