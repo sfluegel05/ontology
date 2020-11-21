@@ -11,10 +11,10 @@ Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
 Ontology: <http://openenergy-platform.org/ontology/oeo/>
-<http://openenergy-platform.org/ontology/oeo/releases/v1.2.0/oeo.omn>
-Import: <http://openenergy-platform.org/ontology/oeo/releases/v1.2.0/oeo-model.omn>
-Import: <http://openenergy-platform.org/ontology/oeo/releases/v1.2.0/oeo-physical.omn>
-Import: <http://openenergy-platform.org/ontology/oeo/releases/v1.2.0/oeo-social.omn>
+<http://openenergy-platform.org/ontology/oeo/releases/vv1.4.0/oeo.omn>
+Import: <http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/oeo-model.omn>
+Import: <http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/oeo-physical.omn>
+Import: <http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/oeo-social.omn>
 Import: <https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl>
 
 Annotations: 
@@ -191,5 +191,3 @@ Class: OEO_00020012
     
     
 Class: OEO_00140009
-
-    
