@@ -11,7 +11,7 @@ Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
 Ontology: <http://openenergy-platform.org/ontology/oeo/oeo-shared/>
-<http://openenergy-platform.org/ontology/oeo/releases/v1.3.2/oeo-shared.omn>
+<http://openenergy-platform.org/ontology/oeo/releases/v1.4.0/oeo-shared.omn>
 Import: <http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/imports/iao-annotation-module.owl>
 Import: <http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/imports/iao-minimal-module.owl>
 Import: <http://openenergy-platform.org/ontology/oeo/releases/v1.3.0/imports/ro-module.owl>
